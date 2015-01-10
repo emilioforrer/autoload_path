@@ -1,7 +1,7 @@
 **AutoloadPath**
 ===================
 
-Some time when you create a `gem` or a `Rails Engine`  you need to `require` a lot of files before the engine's declaration and well, here is where **autoload_path** can help you, it's a very simple gem that allows you to search through a folder and it's subfolders in search of files and automatically require them.
+Sometimes when you create a `gem` or a `Rails Engine`  you need to `require` a lot of files before the engine's declaration and well, here is where **autoload_path** can help you, it's a very simple gem that allows you to search through a folder and it's subfolders in search of files and automatically require them.
 
 ----------
 
@@ -85,11 +85,11 @@ hello_world = HelloWorld.new
 
 As you ca see we now have have required the the 3 files and now we can use it in our project
 
-##Available Methods
+## Available Methods
 
 ###  **AutoloadPath.require_path**
 
-This method require the files that are in the folder, it take one parameter that is the path and have 2 optional arguments that is **only** and **except** that takes an array of file paths that you want to include or exclude.
+This method require the files that are in the folder, it takes one parameter that is the path and have 2 optional arguments that are **only** and **except** that takes an array of file paths that you want to include or exclude.
 
 Example
 -------------
