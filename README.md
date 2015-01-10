@@ -6,6 +6,31 @@ Some time when you create a `gem` or a `Rails Engine`  you need to `require` a l
 ----------
 
 
+**Installation**
+------------
+
+
+
+Add this line to your application's Gemfile:
+
+```
+gem 'autoload_path'
+```
+
+And then execute:
+
+```
+bundle install
+```
+
+Or install it yourself as:
+
+```
+$ gem install autoload_path
+```
+
+----------
+
 Example
 -------------
 
@@ -114,3 +139,4 @@ AutoloadPath.get_files path
 ## **Copyright**
 
 Copyright (c) 2015 Emilio Forrer. See LICENSE.txt for further details.
+
